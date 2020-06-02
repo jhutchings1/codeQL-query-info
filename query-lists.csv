@@ -43,7 +43,7 @@ github/codeql/java/ql/src/Security/CWE/CWE-312/CleartextStorageCookie.ql, code-s
 github/codeql/java/ql/src/Security/CWE/CWE-134/ExternallyControlledFormatString.ql, code-scanning, Use of externally-controlled format string, java/tainted-format-string, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-352/SpringCSRFProtection.ql, code-scanning, Disabled Spring CSRF protection, java/spring-disabled-csrf-protection, problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-502/UnsafeDeserialization.ql, code-scanning, Deserialization of user-controlled data, java/unsafe-deserialization, path-problem, error, high
-github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during archive extraction ("Zip Slip"), java/zipslip, path-problem, error, high
+github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during archive extraction (Zip Slip), java/zipslip, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-022/TaintedPath.ql, code-scanning, Uncontrolled data used in path expression, java/path-injection, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-611/XXE.ql, code-scanning, Resolving XML external entity in user-controlled data, java/xxe, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-078/ExecUnescaped.ql, code-scanning, Building a command line with string concatenation, java/concatenated-command-line, problem, error, high
