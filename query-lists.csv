@@ -91,7 +91,7 @@ github/codeql/javascript/ql/src/Security/CWE-352/MissingCsrfMiddleware.ql, code-
 github/codeql/javascript/ql/src/Security/CWE-338/InsecureRandomness.ql, code-scanning, Insecure randomness, js/insecure-randomness, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-502/UnsafeDeserialization.ql, code-scanning, Deserialization of user-controlled data, js/unsafe-deserialization, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-730/RegExpInjection.ql, code-scanning, Regular expression injection, js/regex-injection, path-problem, error, high
-github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction ("Zip Slip"), js/zipslip, path-problem, error, high
+github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction (Zip Slip), js/zipslip, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-022/TaintedPath.ql, code-scanning, Uncontrolled data used in path expression, js/path-injection, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-843/TypeConfusionThroughParameterTampering.ql, code-scanning, Type confusion through parameter tampering, js/type-confusion-through-parameter-tampering, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-611/Xxe.ql, code-scanning, XML external entity expansion, js/xxe, path-problem, error, high
@@ -145,7 +145,7 @@ github/codeql/csharp/ql/src/Security Features/CWE-502/UnsafeDeserializationUntru
 github/codeql/csharp/ql/src/Security Features/CWE-502/DeserializedDelegate.ql, code-scanning, Deserialized delegate, cs/deserialized-delegate, problem, warning, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/RegexInjection.ql, code-scanning, Regular expression injection, cs/regex-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/ReDoS.ql, code-scanning, Denial of Service from comparison of user input against expensive regex, cs/redos, path-problem, error, high
-github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction ("Zip Slip"), cs/zipslip, path-problem, error, high
+github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction (Zip Slip), cs/zipslip, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-022/TaintedPath.ql, code-scanning, Uncontrolled data used in path expression, cs/path-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-611/UntrustedDataInsecureXml.ql, code-scanning, Untrusted XML is read insecurely, cs/xml/insecure-dtd-handling, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-078/CommandInjection.ql, code-scanning, Uncontrolled command line, cs/command-line-injection, path-problem, error, high
@@ -186,7 +186,7 @@ github/codeql-go/ql/src/Security/CWE-020/IncompleteUrlSchemeCheck.ql, code-scann
 github/codeql-go/ql/src/Security/CWE-020/IncompleteHostnameRegexp.ql, code-scanning, Incomplete regular expression for hostnames, go/incomplete-hostname-regexp, path-problem, warning, high
 github/codeql-go/ql/src/Security/CWE-295/DisabledCertificateCheck.ql, code-scanning, Disabled TLS certificate check, go/disabled-certificate-check, problem, warning, high
 github/codeql-go/ql/src/Security/CWE-312/CleartextLogging.ql, code-scanning, Clear-text logging of sensitive information, go/clear-text-logging, path-problem, error, high
-github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction ("zip slip"), go/zipslip, path-problem, error, high
+github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, code-scanning, Arbitrary file write during zip extraction (zip slip), go/zipslip, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-022/TaintedPath.ql, code-scanning, Uncontrolled data used in path expression, go/path-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-078/CommandInjection.ql, code-scanning, Command built from user-controlled sources, go/command-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-643/XPathInjection.ql, code-scanning, XPath injection, go/xml/xpath-injection, path-problem, error, high
@@ -352,7 +352,7 @@ github/codeql/java/ql/src/Security/CWE/CWE-312/CleartextStorageCookie.ql, securi
 github/codeql/java/ql/src/Security/CWE/CWE-134/ExternallyControlledFormatString.ql, security-and-quality, Use of externally-controlled format string, java/tainted-format-string, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-352/SpringCSRFProtection.ql, security-and-quality, Disabled Spring CSRF protection, java/spring-disabled-csrf-protection, problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-502/UnsafeDeserialization.ql, security-and-quality, Deserialization of user-controlled data, java/unsafe-deserialization, path-problem, error, high
-github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during archive extraction ("Zip Slip"), java/zipslip, path-problem, error, high
+github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during archive extraction (Zip Slip), java/zipslip, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-022/TaintedPath.ql, security-and-quality, Uncontrolled data used in path expression, java/path-injection, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-611/XXE.ql, security-and-quality, Resolving XML external entity in user-controlled data, java/xxe, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-078/ExecUnescaped.ql, security-and-quality, Building a command line with string concatenation, java/concatenated-command-line, problem, error, high
@@ -557,7 +557,7 @@ github/codeql/javascript/ql/src/Security/CWE-352/MissingCsrfMiddleware.ql, secur
 github/codeql/javascript/ql/src/Security/CWE-338/InsecureRandomness.ql, security-and-quality, Insecure randomness, js/insecure-randomness, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-502/UnsafeDeserialization.ql, security-and-quality, Deserialization of user-controlled data, js/unsafe-deserialization, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-730/RegExpInjection.ql, security-and-quality, Regular expression injection, js/regex-injection, path-problem, error, high
-github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction ("Zip Slip"), js/zipslip, path-problem, error, high
+github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction (Zip Slip), js/zipslip, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-022/TaintedPath.ql, security-and-quality, Uncontrolled data used in path expression, js/path-injection, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-843/TypeConfusionThroughParameterTampering.ql, security-and-quality, Type confusion through parameter tampering, js/type-confusion-through-parameter-tampering, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-611/Xxe.ql, security-and-quality, XML external entity expansion, js/xxe, path-problem, error, high
@@ -729,7 +729,7 @@ github/codeql/csharp/ql/src/Security Features/CWE-502/UnsafeDeserializationUntru
 github/codeql/csharp/ql/src/Security Features/CWE-502/DeserializedDelegate.ql, security-and-quality, Deserialized delegate, cs/deserialized-delegate, problem, warning, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/RegexInjection.ql, security-and-quality, Regular expression injection, cs/regex-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/ReDoS.ql, security-and-quality, Denial of Service from comparison of user input against expensive regex, cs/redos, path-problem, error, high
-github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction ("Zip Slip"), cs/zipslip, path-problem, error, high
+github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction (Zip Slip), cs/zipslip, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-022/TaintedPath.ql, security-and-quality, Uncontrolled data used in path expression, cs/path-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-611/UntrustedDataInsecureXml.ql, security-and-quality, Untrusted XML is read insecurely, cs/xml/insecure-dtd-handling, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-078/CommandInjection.ql, security-and-quality, Uncontrolled command line, cs/command-line-injection, path-problem, error, high
@@ -832,7 +832,7 @@ github/codeql/csharp/ql/src/Language Abuse/UselessNullCoalescingExpression.ql, s
 github/codeql/csharp/ql/src/Likely Bugs/ThreadUnsafeICryptoTransform.ql, security-and-quality, Thread-unsafe use of a static ICryptoTransform field, cs/thread-unsafe-icryptotransform-field-in-class, problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/EqualityCheckOnFloats.ql, security-and-quality, Equality check on floating point values, cs/equality-on-floats, problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/Dynamic/BadDynamicCall.ql, security-and-quality, Bad dynamic call, cs/invalid-dynamic-call, problem, error, medium
-github/codeql/csharp/ql/src/Likely Bugs/EqualsUsesIs.ql, security-and-quality, Equals should not apply "is", cs/equals-uses-is, problem, warning, medium
+github/codeql/csharp/ql/src/Likely Bugs/EqualsUsesIs.ql, security-and-quality, Equals should not apply is, cs/equals-uses-is, problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/LeapYear/UnsafeYearConstruction.ql, security-and-quality, Unsafe year argument for 'DateTime' constructor, cs/unsafe-year-construction, path-problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/MishandlingJapaneseEra.ql, security-and-quality, Mishandling the Japanese era start date, cs/mishandling-japanese-era, problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/InconsistentCompareTo.ql, security-and-quality, Inconsistent CompareTo and Equals, cs/inconsistent-compareto-and-equals, problem, warning, medium
@@ -840,7 +840,7 @@ github/codeql/csharp/ql/src/Likely Bugs/Statements/UseBraces.ql, security-and-qu
 github/codeql/csharp/ql/src/Likely Bugs/RecursiveOperatorEquals.ql, security-and-quality, Recursive call to operator==, cs/recursive-operator-equals-call, problem, error, medium
 github/codeql/csharp/ql/src/Likely Bugs/ThreadUnsafeICryptoTransformLambda.ql, security-and-quality, Thread-unsafe capturing of an ICryptoTransform object, cs/thread-unsafe-icryptotransform-captured-in-lambda, problem, warning, medium
 github/codeql/csharp/ql/src/Likely Bugs/ObjectComparison.ql, security-and-quality, Reference equality test on System.Object, cs/reference-equality-with-object, problem, warning, medium
-github/codeql/csharp/ql/src/Likely Bugs/EqualsUsesAs.ql, security-and-quality, Equals should not apply "as", cs/equals-uses-as, problem, warning, medium
+github/codeql/csharp/ql/src/Likely Bugs/EqualsUsesAs.ql, security-and-quality, Equals should not apply as, cs/equals-uses-as, problem, warning, medium
 github/codeql/python/ql/src/Lexical/OldOctalLiteral.ql, security-and-quality, Confusing octal literal, py/old-style-octal-literal, problem, recommendation, high
 github/codeql/python/ql/src/Lexical/CommentedOutCode.ql, security-and-quality, Commented-out code, py/commented-out-code, problem, recommendation, high
 github/codeql/python/ql/src/Security/CWE-094/CodeInjection.ql, security-and-quality, Code injection, py/code-injection, path-problem, error, high
@@ -1019,7 +1019,7 @@ github/codeql-go/ql/src/Security/CWE-020/IncompleteUrlSchemeCheck.ql, security-a
 github/codeql-go/ql/src/Security/CWE-020/IncompleteHostnameRegexp.ql, security-and-quality, Incomplete regular expression for hostnames, go/incomplete-hostname-regexp, path-problem, warning, high
 github/codeql-go/ql/src/Security/CWE-295/DisabledCertificateCheck.ql, security-and-quality, Disabled TLS certificate check, go/disabled-certificate-check, problem, warning, high
 github/codeql-go/ql/src/Security/CWE-312/CleartextLogging.ql, security-and-quality, Clear-text logging of sensitive information, go/clear-text-logging, path-problem, error, high
-github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction ("zip slip"), go/zipslip, path-problem, error, high
+github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, security-and-quality, Arbitrary file write during zip extraction (zip slip), go/zipslip, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-022/TaintedPath.ql, security-and-quality, Uncontrolled data used in path expression, go/path-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-078/CommandInjection.ql, security-and-quality, Command built from user-controlled sources, go/command-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-643/XPathInjection.ql, security-and-quality, XPath injection, go/xml/xpath-injection, path-problem, error, high
@@ -1105,7 +1105,7 @@ github/codeql/java/ql/src/Security/CWE/CWE-312/CleartextStorageCookie.ql, securi
 github/codeql/java/ql/src/Security/CWE/CWE-134/ExternallyControlledFormatString.ql, security-extended, Use of externally-controlled format string, java/tainted-format-string, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-352/SpringCSRFProtection.ql, security-extended, Disabled Spring CSRF protection, java/spring-disabled-csrf-protection, problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-502/UnsafeDeserialization.ql, security-extended, Deserialization of user-controlled data, java/unsafe-deserialization, path-problem, error, high
-github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during archive extraction ("Zip Slip"), java/zipslip, path-problem, error, high
+github/codeql/java/ql/src/Security/CWE/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during archive extraction (Zip Slip), java/zipslip, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-022/TaintedPath.ql, security-extended, Uncontrolled data used in path expression, java/path-injection, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-611/XXE.ql, security-extended, Resolving XML external entity in user-controlled data, java/xxe, path-problem, error, high
 github/codeql/java/ql/src/Security/CWE/CWE-078/ExecUnescaped.ql, security-extended, Building a command line with string concatenation, java/concatenated-command-line, problem, error, high
@@ -1170,7 +1170,7 @@ github/codeql/javascript/ql/src/Security/CWE-352/MissingCsrfMiddleware.ql, secur
 github/codeql/javascript/ql/src/Security/CWE-338/InsecureRandomness.ql, security-extended, Insecure randomness, js/insecure-randomness, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-502/UnsafeDeserialization.ql, security-extended, Deserialization of user-controlled data, js/unsafe-deserialization, path-problem, warning, high
 github/codeql/javascript/ql/src/Security/CWE-730/RegExpInjection.ql, security-extended, Regular expression injection, js/regex-injection, path-problem, error, high
-github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction ("Zip Slip"), js/zipslip, path-problem, error, high
+github/codeql/javascript/ql/src/Security/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction (Zip Slip), js/zipslip, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-022/TaintedPath.ql, security-extended, Uncontrolled data used in path expression, js/path-injection, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-843/TypeConfusionThroughParameterTampering.ql, security-extended, Type confusion through parameter tampering, js/type-confusion-through-parameter-tampering, path-problem, error, high
 github/codeql/javascript/ql/src/Security/CWE-611/Xxe.ql, security-extended, XML external entity expansion, js/xxe, path-problem, error, high
@@ -1237,7 +1237,7 @@ github/codeql/csharp/ql/src/Security Features/CWE-502/UnsafeDeserializationUntru
 github/codeql/csharp/ql/src/Security Features/CWE-502/DeserializedDelegate.ql, security-extended, Deserialized delegate, cs/deserialized-delegate, problem, warning, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/RegexInjection.ql, security-extended, Regular expression injection, cs/regex-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-730/ReDoS.ql, security-extended, Denial of Service from comparison of user input against expensive regex, cs/redos, path-problem, error, high
-github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction ("Zip Slip"), cs/zipslip, path-problem, error, high
+github/codeql/csharp/ql/src/Security Features/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction (Zip Slip), cs/zipslip, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-022/TaintedPath.ql, security-extended, Uncontrolled data used in path expression, cs/path-injection, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-611/UntrustedDataInsecureXml.ql, security-extended, Untrusted XML is read insecurely, cs/xml/insecure-dtd-handling, path-problem, error, high
 github/codeql/csharp/ql/src/Security Features/CWE-078/CommandInjection.ql, security-extended, Uncontrolled command line, cs/command-line-injection, path-problem, error, high
@@ -1296,7 +1296,7 @@ github/codeql-go/ql/src/Security/CWE-020/IncompleteUrlSchemeCheck.ql, security-e
 github/codeql-go/ql/src/Security/CWE-020/IncompleteHostnameRegexp.ql, security-extended, Incomplete regular expression for hostnames, go/incomplete-hostname-regexp, path-problem, warning, high
 github/codeql-go/ql/src/Security/CWE-295/DisabledCertificateCheck.ql, security-extended, Disabled TLS certificate check, go/disabled-certificate-check, problem, warning, high
 github/codeql-go/ql/src/Security/CWE-312/CleartextLogging.ql, security-extended, Clear-text logging of sensitive information, go/clear-text-logging, path-problem, error, high
-github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction ("zip slip"), go/zipslip, path-problem, error, high
+github/codeql-go/ql/src/Security/CWE-022/ZipSlip.ql, security-extended, Arbitrary file write during zip extraction (zip slip), go/zipslip, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-022/TaintedPath.ql, security-extended, Uncontrolled data used in path expression, go/path-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-078/CommandInjection.ql, security-extended, Command built from user-controlled sources, go/command-injection, path-problem, error, high
 github/codeql-go/ql/src/Security/CWE-643/XPathInjection.ql, security-extended, XPath injection, go/xml/xpath-injection, path-problem, error, high
