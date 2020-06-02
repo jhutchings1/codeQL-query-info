@@ -18,4 +18,3 @@ foreach ($suite in $suites) {
     }
   }  
 }
-
