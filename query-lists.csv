@@ -469,7 +469,7 @@ github/codeql/java/ql/src/Language Abuse/OverridePackagePrivate.ql, security-and
 github/codeql/java/ql/src/Language Abuse/TypeVarExtendsFinalType.ql, security-and-quality, Type bound extends a final class, java/type-bound-extends-final, problem, warning, medium
 github/codeql/java/ql/src/Language Abuse/TypeVariableHidesType.ql, security-and-quality, Type variable hides another type, java/type-variable-hides-type, problem, warning, medium
 github/codeql/java/ql/src/Likely Bugs/Termination/SpinOnField.ql, security-and-quality, Spin on field, java/spin-on-field, problem, warning, medium
-github/codeql/java/ql/src/Likely Bugs/Serialization/ReadResolveObject.ql, security-and-quality, ReadResolve must have Object return type, not void, java/wrong-readresolve-signature, problem, warning, medium
+github/codeql/java/ql/src/Likely Bugs/Serialization/ReadResolveObject.ql, security-and-quality, ReadResolve must have Object return type not void, java/wrong-readresolve-signature, problem, warning, medium
 github/codeql/java/ql/src/Likely Bugs/Serialization/IncorrectSerializableMethods.ql, security-and-quality, Serialization methods do not match required signature, java/wrong-object-serialization-signature, problem, warning, medium
 github/codeql/java/ql/src/Likely Bugs/Serialization/MissingVoidConstructorOnExternalizable.ql, security-and-quality, Externalizable but no public no-argument constructor, java/missing-no-arg-constructor-on-externalizable, problem, warning, medium
 github/codeql/java/ql/src/Likely Bugs/Serialization/IncorrectSerialVersionUID.ql, security-and-quality, Incorrect serialVersionUID field, java/incorrect-serial-version-uid, problem, warning, medium
@@ -610,7 +610,7 @@ github/codeql/javascript/ql/src/Declarations/ClobberingVarInit.ql, security-and-
 github/codeql/javascript/ql/src/Declarations/TemporalDeadZone.ql, security-and-quality, Access to let-bound variable in temporal dead zone, js/variable-use-in-temporal-dead-zone, problem, error, very-high
 github/codeql/javascript/ql/src/Declarations/MissingVarDecl.ql, security-and-quality, Missing variable declaration, js/missing-variable-declaration, problem, warning, high
 github/codeql/javascript/ql/src/Declarations/MissingThisQualifier.ql, security-and-quality, Missing 'this' qualifier, js/missing-this-qualifier, problem, error, high
-github/codeql/javascript/ql/src/Declarations/UnusedVariable.ql, security-and-quality, Unused variable, import, function or class, js/unused-local-variable, problem, recommendation, very-high
+github/codeql/javascript/ql/src/Declarations/UnusedVariable.ql, security-and-quality, Unused variable import function or class, js/unused-local-variable, problem, recommendation, very-high
 github/codeql/javascript/ql/src/Statements/LabelInCase.ql, security-and-quality, Non-case label in switch statement, js/label-in-switch, problem, warning, very-high
 github/codeql/javascript/ql/src/Statements/IgnoreArrayResult.ql, security-and-quality, Ignoring result from pure array method, js/ignore-array-result, problem, warning, high
 github/codeql/javascript/ql/src/Statements/InconsistentLoopOrientation.ql, security-and-quality, Inconsistent direction of for loop, js/inconsistent-loop-direction, problem, error, very-high
@@ -788,7 +788,7 @@ github/codeql/csharp/ql/src/Likely Bugs/IncomparableEquals.ql, security-and-qual
 github/codeql/csharp/ql/src/Likely Bugs/EqualsArray.ql, security-and-quality, Equals on collections, cs/equals-on-arrays, problem, recommendation, high
 github/codeql/csharp/ql/src/Likely Bugs/PossibleLossOfPrecision.ql, security-and-quality, Possible loss of precision, cs/loss-of-precision, problem, error, high
 github/codeql/csharp/ql/src/Likely Bugs/Statements/EmptyLockStatement.ql, security-and-quality, Empty lock statement, cs/empty-lock-statement, problem, warning, high
-github/codeql/csharp/ql/src/Likely Bugs/Statements/EmptyBlock.ql, security-and-quality, Empty branch of conditional, or empty loop body, cs/empty-block, problem, warning, high
+github/codeql/csharp/ql/src/Likely Bugs/Statements/EmptyBlock.ql, security-and-quality, Empty branch of conditional or empty loop body, cs/empty-block, problem, warning, high
 github/codeql/csharp/ql/src/Likely Bugs/ReferenceEqualsOnValueTypes.ql, security-and-quality, Call to ReferenceEquals(...) on value type expressions, cs/reference-equality-on-valuetypes, problem, error, high
 github/codeql/csharp/ql/src/Likely Bugs/SelfAssignment.ql, security-and-quality, Self-assignment, cs/self-assignment, problem, error, high
 github/codeql/csharp/ql/src/Likely Bugs/ImpossibleArrayCast.ql, security-and-quality, Impossible array cast, cs/impossible-array-cast, problem, error, high
